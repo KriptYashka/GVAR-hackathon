@@ -1,14 +1,15 @@
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 namespace Mirror.Examples.Tanks
 {
-    public class TankGameManager : NetworkBehaviour
+    public class TGM : MonoBehaviour
     {
         public int MinimumPlayersForGame = 1;
 
         public Tank LocalPlayer;
+        public Canvas canvas;
         public GameObject StartPanel;
         public GameObject GameOverPanel;
         public GameObject HealthTextLabel;
@@ -31,7 +32,6 @@ namespace Mirror.Examples.Tanks
                 if (LocalPlayer == null)
                 {
                     FindLocalTank();
-                    print("Fund - " + LocalPlayer);
                 }
                 else
                 {
@@ -146,7 +146,6 @@ namespace Mirror.Examples.Tanks
 
         public void ReadyButtonHandler()
         {
-            print(LocalPlayer);
             LocalPlayer.SendReadyToServer(PlayerNameText.text);
         }
 
