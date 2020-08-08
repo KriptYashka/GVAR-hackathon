@@ -21,9 +21,9 @@ public class TankTurret : MonoBehaviour
 
     [Header("Отдача")] 
     public float recoilForce = 2000.0f;
-    [Header("Урон")]
-    public float minDamage = 365;
-    public float maxDamage = 400;
+    // [Header("Урон")]
+    // public float minDamage = 365;
+    // public float maxDamage = 400;
     
     public Transform AimTransform;
 

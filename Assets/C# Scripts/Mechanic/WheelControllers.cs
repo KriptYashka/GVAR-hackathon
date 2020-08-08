@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -56,13 +57,23 @@ public class WheelControllers : MonoBehaviour
             return result;
         }
 
+        private void FixedUpdate()
+        {
+            float accel = 0;
+            float steer = 0;
+            accel = Input.GetAxis("Vertical");
+            steer = Input.GetAxis("Horizontal");
+            //_wheelControllers.CmdFixedUpdateThree(accel, steer);
+            CmdFixedUpdateThree(accel, steer);
+            UpdateWheels();
+        }
         // Update is called once per frame
   
     public void CmdFixedUpdateThree(float accel, float steer)
     {
         FixedUpdateThree(accel, steer);
     }
-    private void UpdateWheels()
+    public void UpdateWheels()
     {
         float delta = Time.fixedDeltaTime;
         foreach (WheelData w in wheels)
