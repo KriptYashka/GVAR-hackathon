@@ -15,8 +15,8 @@ public class PlayerInput : MonoBehaviour
         TrackController 
     };
 
-    public TankTurret TankTurret;
-    public Player player;
+   // public TankTurret TankTurret;
+    private BodyParameter bodyParameter;
 
     [Header("Переключатель механики езды")]
     [SerializeField]
@@ -24,17 +24,21 @@ public class PlayerInput : MonoBehaviour
     [Space]
     public WheelControllers _wheelControllers;
     public TracksControllers _tracksController;
-    
-    
+
+    void Start()
+    {
+        bodyParameter = GetComponentInChildren<BodyParameter>();
+    }
+
     void Update()
     {
-        if (1 != 0)
+        if (1!=0)
         {
             
-            if (Input.GetMouseButtonDown(0) && TankTurret.fire)
-            {
-                TankTurret.StartCoroutine("Shoot");
-            }
+            // if (Input.GetMouseButtonDown(0) && TankTurret.fire)
+            // {
+            //     TankTurret.StartCoroutine("Shoot");
+            // }
 
             if (_choice == ChoiceControllers.TrackController)
             {
@@ -43,11 +47,12 @@ public class PlayerInput : MonoBehaviour
             }
             else if(_choice == ChoiceControllers.WheelController)
             {
-                float accel = 0;
-                float steer = 0;
-                accel = Input.GetAxis("Vertical");
-                steer = Input.GetAxis("Horizontal");
-                _wheelControllers.CmdFixedUpdateThree(accel, steer);
+                // float accel = 0;
+                // float steer = 0;
+                // accel = Input.GetAxis("Vertical");
+                // steer = Input.GetAxis("Horizontal");
+                // _wheelControllers.CmdFixedUpdateThree(accel, steer);
+              
             }
         }
         else

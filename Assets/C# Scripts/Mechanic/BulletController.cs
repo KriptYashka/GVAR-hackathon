@@ -16,14 +16,14 @@ public class BulletController : MonoBehaviour
     private int bitmask;
         //------
     public TankTurret _tankTurret;
-    private float minDamage ;
-    private float maxDamage ;
+    private float minDamage =365f ;
+    private float maxDamage =400f ;
     void Start()
     {
         lastPos = transform.position;
         bitmask = ~(1 << TeammateMask) & ~(1 << MapMask) & (1 << EnemyMask);
-        minDamage = _tankTurret.minDamage;
-        maxDamage = _tankTurret.maxDamage;
+        // minDamage = _tankTurret.minDamage;
+        // maxDamage = _tankTurret.maxDamage;
     }
 
     void FixedUpdate()
