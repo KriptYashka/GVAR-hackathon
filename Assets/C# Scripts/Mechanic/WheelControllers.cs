@@ -37,7 +37,6 @@ public class WheelControllers : MonoBehaviour
             rigidBody = GetComponent<Rigidbody>();
             rigidBody.centerOfMass = COM.localPosition;
             wheels = new WheelData[WColForward.Length + WColBack.Length];
-            print(WColForward.Length + WColBack.Length);
             for (int i = 0; i < WColForward.Length; i++)
             {
                 wheels[i] = SetupWheels(wheelsF[i], WColForward[i]);
