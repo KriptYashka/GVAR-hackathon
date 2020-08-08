@@ -79,6 +79,7 @@ public class WheelControllers : MonoBehaviour
         foreach (WheelData w in wheels)
         {
             WheelHit hit;
+            print(w);
             Vector3 lp = w.wheelTransform.localPosition;
             if (w.col.GetGroundHit(out hit))
             {
