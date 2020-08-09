@@ -1,30 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c10880d5-5070-4ef6-a85a-288dfa7a68fa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Model/Map.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Model/MapObjects.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Mirror/Examples.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Body.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Effects.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Effects/MuzzleFire.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Effects/MuzzleFire.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Map.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Shell.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Shell.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Sounds.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Sounds/SE_Fire.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Sounds/SE_Fire.ogg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Turret.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/WheelCollider.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/WheelCollider/ForWheel.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/WheelCollider/ForWheel.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/WheelCollider/RightWheelCol1.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/WheelCollider/RightWheelCol1.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/tank.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/tank.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sound.meta" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tanks/Cube.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tanks/Cube.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tanks/pauchok (3).prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tanks/pauchok (3).prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tanks/tank.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tanks/tank.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GVAR-hackathon/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GVAR-hackathon/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/C# Scripts/ShowTanks.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/C# Scripts/ShowTanks.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scene/StartMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scene/StartMenu.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,8 +46,8 @@
     <setting file="file://$PROJECT_DIR$/Assets/C# Scripts/Mechanic/BulletController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/C# Scripts/Mechanic/TracksControllers.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Unity/Hub/Editor/2019.4.0f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/InputModules/BaseInput.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/C# Scripts/ShowTanks.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/C# Scripts/Player/PlayerInput.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/C# Scripts/Hangar/GarageCamera.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -55,6 +59,8 @@
         <option value="$PROJECT_DIR$/Assets/C# Scripts/Mechanic/PlayerCamera.cs" />
         <option value="$PROJECT_DIR$/Assets/C# Scripts/Player/PlayerInput.cs" />
         <option value="$PROJECT_DIR$/Assets/C# Scripts/Mechanic/WheelControllers.cs" />
+        <option value="$PROJECT_DIR$/Assets/C# Scripts/ShowModelUi.cs" />
+        <option value="$PROJECT_DIR$/Assets/C# Scripts/ShowPrefab.cs" />
         <option value="$PROJECT_DIR$/Assets/C# Scripts/ShowTanks.cs" />
       </list>
     </option>
@@ -97,7 +103,7 @@
       <updated>1596882533273</updated>
       <workItem from="1596882657400" duration="5007000" />
       <workItem from="1596906166634" duration="8112000" />
-      <workItem from="1596960839209" duration="272000" />
+      <workItem from="1596960839209" duration="5004000" />
     </task>
     <servers />
   </component>
@@ -106,6 +112,17 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
