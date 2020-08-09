@@ -35,7 +35,7 @@ public class WheelControllers : MonoBehaviour
     
         void Start()
         {
-            rigidBody = GetComponent<Rigidbody>();
+            rigidBody = GetComponentInParent<Rigidbody>();
             rigidBody.centerOfMass = COM.localPosition;
             wheels = new WheelData[WColForward.Length+WColBack.Length];
             for (int i = 0; i < WColForward.Length; i++)
@@ -54,6 +54,7 @@ public class WheelControllers : MonoBehaviour
             WheelData result = new WheelData();
             result.col = col;
             result.wheelStartPos = wheel.transform.localPosition;
+            //result.wheelTransform = wheel.transform;
             return result;
         }
 
@@ -65,7 +66,7 @@ public class WheelControllers : MonoBehaviour
             steer = Input.GetAxis("Horizontal");
             //_wheelControllers.CmdFixedUpdateThree(accel, steer);
             CmdFixedUpdateThree(accel, steer);
-            UpdateWheels();
+            //UpdateWheels();
         }
         // Update is called once per frame
   
@@ -79,8 +80,8 @@ public class WheelControllers : MonoBehaviour
         foreach (WheelData w in wheels)
         {
             WheelHit hit;
-            print(w);
-            Vector3 lp = w.wheelTransform.localPosition;
+            print(w.wheelTransform.position);
+            Vector3 lp = w.wheelTransform.transform.localPosition;
             if (w.col.GetGroundHit(out hit))
             {
                 lp.y -= Vector3.Dot(w.wheelTransform.position - hit.point, transform.up) - wheelRadius;
@@ -91,9 +92,9 @@ public class WheelControllers : MonoBehaviour
                 lp.y = w.wheelStartPos.y - wheelOffset;
             }
 
-            w.wheelTransform.localPosition = lp;
+            w.wheelTransform.transform.localPosition = lp;
             w.rotation = Mathf.Repeat(w.rotation + delta * w.col.rpm * 360.0f / 60.0f, 360.0f); 
-            w.wheelTransform.localRotation = Quaternion.Euler(w.rotation, w.col.steerAngle, 90.0f);
+            w.wheelTransform.transform.localRotation = Quaternion.Euler(w.rotation, w.col.steerAngle, 90.0f);
         }
     }
 

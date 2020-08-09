@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: bf9a2f1e837cd414eaf92874ae7a9f7a
+=======
+guid: 96fdae6289dabe04ebf30b9dfa8904cd
+>>>>>>> map-creator
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 0
