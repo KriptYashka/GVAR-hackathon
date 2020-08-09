@@ -44,13 +44,7 @@ public class LocalCanvas : MonoBehaviour
     {
 
         /* Инициализация прицелов */
-        //rectMainAim = MainAim.GetComponent<RectTransform>();
         rectGunAim = GunAim.GetComponent<RectTransform>();
-
-        /*rectMainAim.sizeDelta = new Vector2(widthMainAim, heightMainAim);
-        rectMainAim.anchorMin = new Vector2(0.5f, 0.5f);
-        rectMainAim.anchorMax = new Vector2(0.5f, 0.5f);
-        rectMainAim.pivot = new Vector2(0.5f, 0.5f);*/
 
         rectGunAim.sizeDelta = new Vector2(widthGunAim, heightGunAim);
         rectGunAim.anchorMin = new Vector2(0f, 0f);
@@ -64,7 +58,7 @@ public class LocalCanvas : MonoBehaviour
 
         tank = transform.parent.GetComponentInChildren<Tank>();
         TankTurret = transform.parent.GetComponentInChildren<TankTurret>();
-        _amountOfReloadTime = turretParameter.reloadTime;
+        /*_amountOfReloadTime = turretParameter.reloadTime;
         _maxTimeReload = _amountOfReloadTime;
         
         //-------
@@ -73,13 +67,13 @@ public class LocalCanvas : MonoBehaviour
         //-------
         _maxHp = bodyParameter.health;
         hpBar.fillAmount = _maxHp;
-        _hpAmount = _maxHp;
+        _hpAmount = _maxHp;*/
     }
    
     void FixedUpdate()
     {
-        RechargingBar();
-        ResistBar();
+        /*RechargingBar();
+        ResistBar();*/ // Вырезанный функционал. Для его получения отправьте СМС на короткий номер...
         
         MoveTankAim();
     }
