@@ -1313,7 +1313,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -86.819885, y: -37.234024}
+  m_AnchoredPosition: {x: -86.819824, y: -37.23413}
   m_SizeDelta: {x: 50.428833, y: 50.428833}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &187920906
@@ -1717,7 +1717,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 259918949}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &259918949
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5188,7 +5199,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 7.0999756, y: -46.07599}
+  m_AnchoredPosition: {x: 7.1000977, y: -46.075928}
   m_SizeDelta: {x: -85.15344, y: -92.153015}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1114876215
@@ -6560,6 +6571,53 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1308030021}
   m_CullTransparentMesh: 0
+--- !u!1 &1335122166
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1335122168}
+  - component: {fileID: 1335122167}
+  m_Layer: 0
+  m_Name: GVAR Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1335122167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1335122166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58573643283b9a048a74f95d2b663836, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TankZ4: {fileID: 0}
+  TankDizraptor: {fileID: 0}
+  TankSpider: {fileID: 0}
+  TankRail: {fileID: 0}
+--- !u!4 &1335122168
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1335122166}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 289.13733, y: 45.646297, z: 147.44672}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1369546340
 GameObject:
   m_ObjectHideFlags: 0
@@ -8250,7 +8308,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1911289280}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1335122167}
+        m_MethodName: StartGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1911289280
 MonoBehaviour:
   m_ObjectHideFlags: 0
