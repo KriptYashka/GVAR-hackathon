@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c10880d5-5070-4ef6-a85a-288dfa7a68fa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Map.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/MapObjects.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Mirror/Examples.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Body.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Effects.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Effects/MuzzleFire.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Effects/MuzzleFire.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Map.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Shell.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Shell.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Sounds.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Sounds/SE_Fire.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Sounds/SE_Fire.ogg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Turret.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/WheelCollider.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/WheelCollider/ForWheel.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/WheelCollider/ForWheel.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/WheelCollider/RightWheelCol1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/WheelCollider/RightWheelCol1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/tank.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/tank.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sound.meta" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/C# Scripts/Mechanic/TankTurret.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/C# Scripts/Mechanic/GunCamera.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/C# Scripts/Mechanic/PlayerCamera.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/C# Scripts/Mechanic/WheelControllers.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/C# Scripts/Mechanic/BulletController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/C# Scripts/Mechanic/TracksControllers.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://C:/Program Files/Unity/Hub/Editor/2019.4.0f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/InputModules/BaseInput.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/C# Scripts/Player/PlayerInput.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/C# Scripts/Hangar/GarageCamera.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/C# Scripts/Hangar/GarageCamera.cs" />
+        <option value="$PROJECT_DIR$/Assets/C# Scripts/SettingsScripts/Settings/SettingsContentBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/C# Scripts/Mechanic/TankTurret.cs" />
+        <option value="$PROJECT_DIR$/Assets/C# Scripts/Mechanic/BulletController.cs" />
+        <option value="$PROJECT_DIR$/Assets/C# Scripts/Mechanic/PlayerCamera.cs" />
+        <option value="$PROJECT_DIR$/Assets/C# Scripts/Player/PlayerInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/C# Scripts/Mechanic/WheelControllers.cs" />
+        <option value="$PROJECT_DIR$/Assets/C# Scripts/ShowTanks.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1foRaaBVSR4MR1hfBZLRPoazwZZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c10880d5-5070-4ef6-a85a-288dfa7a68fa" name="Default Changelist" comment="" />
+      <created>1596882533273</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596882533273</updated>
+      <workItem from="1596882657400" duration="5007000" />
+      <workItem from="1596906166634" duration="8112000" />
+      <workItem from="1596960839209" duration="272000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
